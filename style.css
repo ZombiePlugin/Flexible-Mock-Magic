@@ -94,3 +94,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
 }
+
+.image-container:nth-child(3n + 2) {
+  flex-grow: 2;
+}
